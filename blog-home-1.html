@@ -27,6 +27,19 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+<script>
+$(document).ready(function(){
+    $("#Ozawa").hide(); 
+    $("#bl_btn_1").click(function(){
+        $("#Ozawa").show();
+    $("#bl_btn_1").click(function(){
+        $("#Ozawa").hide();
+    });
+   
+    });
+});
+</script>
+
 </head>
 
 <body>
@@ -116,7 +129,7 @@
                 </a>
                 <hr>
                 <h3>11th Sensei Ozawa Seminar 2016</h3>
-                <a class="btn btn-primary" href="#Ozawa">Read More <i class="fa fa-angle-right"></i></a>
+                <a class="btn btn-primary" id="bl_btn_1">Read More <i class="fa fa-angle-right"></i></a>
                 <div id="Ozawa">
                     <ul>
                     <li>Hiroshi Ozawa 8th Dan Kyoshi</li>
