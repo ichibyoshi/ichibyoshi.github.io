@@ -7,9 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Ichi ByōShi Kendo Club">
 
-    <title>Ichi ByōShi Kendo Club</title>
+    <title>Page Not Found | Ichi ByōShi Kendo Club</title>
+
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="img/icon-192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -56,21 +60,14 @@
                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="gallery.html">Gallery</a>
-                            </li>
-                        </ul>
+                    <li>
+                        <a href="resources.html">Resources</a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="blog-home-1.html">Blog Home 1</a>
-                            </li>
-                        </ul>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/groups/359797464036657/?fref=ts" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
                     </li>
                 </ul>
             </div>
@@ -128,7 +125,8 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Ichi ByōShi 2016</p>
+                    <p>Copyright &copy; Ichi ByōShi <span id="year">2026</span></p>
+                    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
                 </div>
             </div>
         </footer>
